@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Style for Homepage*/
+
+
+#body
+{
+	background-color:lightblue;}
+
+#solar
+{
+	
+height:450;
+width:700px;
+
+}
+
+#footer
+{
+background-color:#2B00A7;
+color:white;
+}
+
+
+#div1
+{
+	
+	background-image:url(https://t3.ftcdn.net/jpg/00/94/05/20/240_F_94052007_Djy7YntnqUvwp3dDUTXVnt4Fk8Xr0T03.jpg);
+	color:white;
+	border: 15px ridge white;
+}
+
+ .planet 
+{
+	font-size:35px;
+	font-family:monospace;
+}
+
+.h3
+{
+	color:white;
+	font-family:monospace;
+}
+
+
+
+/*table*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  float:right;
+}
+
+.quiz
+{
+	font-family:monospace;
+	font-size:50px;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+ 
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+#list2
+
+{
+	float:right;
+}
+
+.h3
+{
+	font-family:monospace;
+	font-size:30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*Style for page 2*/
+#body2
+{
+	
+	background-image:url(https://t3.ftcdn.net/jpg/00/94/05/20/240_F_94052007_Djy7YntnqUvwp3dDUTXVnt4Fk8Xr0T03.jpg);
+	background-image:repeat-y;
+	color:white;
+	border: 15px ridge white;
+	text-align:center;
+}
+
+
+.p
+{
+	color:white;
+	font-size:20px;
+	font-family:monospace;
+	text-align:center;
+	background-color:#000321;
+}
+
+ .space
+{
+	color:white;
+	font-family:monospace;
+	font-size:35px;
+	text-align:center;
+}
+
+.h1
+{
+	color:white;
+	font-size:45px;
+	font-family:monospace;
+	text-align:center;
+}
+
+
+
+/*Page Two Planets*/ 
+
+#sunpic
+{
+	height:100px;
+	width:100px;
+	float:right;
+}
+
+#sun
+{
+	text-align:center;
+	border:10px dotted #FF3700;
+}
+
+
+#mercurypic
+{
+	
+    height:100px;
+	width:100px;
+	float:right;
+}
+#mercury
+{
+	text-align:center;
+	border: 10px dotted #E2C3E9;
+	
+}
+#venuspic
+{
+	height:200px;
+	width:200px;
+	float:right;
+}
+
+#venus 
+{
+	text-align:center;
+	border:10px dotted #FF670E;
+		
+}
+
+#earthpic
+{
+	
+	height:100px;
+	width:100px;
+	float:right;
+
+	
+}
+
+#earth
+{
+	
+	text-align:center;
+	border: 10px dotted #0CB4FB;
+}
+
+#marspic
+{
+	height:100px;
+	width:100px;
+	float:right;
+
+}
+
+#mars
+{
+	text-align:center;
+	border:10px dotted red;
+}
+
+
+
+
+
+/*Page Three Planets*/
+
+#jupiterpic
+{
+
+	height:100px;
+	width:100px;
+	float:right;	
+	
+}
+
+#jupiter
+{
+	
+	text-align:center;
+	border:10px dotted #702300;
+}
+
+
+#saturnpic
+{
+	height:100px;
+	width:140px;
+	float:right;
+}
+
+
+#saturn
+{
+	text-align:center;
+	border:10px dotted #FFA35D;
+
+}
+
+#uranuspic
+{
+   height:140px;
+	width:100px;
+	float:right;	
+}
+
+#uranus
+{
+	text-align:center;
+	border:10px dotted #88FFD4;
+}
+
+#neptunepic
+{
+	height:100px;
+	width:100px;
+	float:right;	
+}
+
+#neptune
+{
+	text-align:center;
+	border:10px dotted #0540FF;
+}
